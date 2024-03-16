@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="es">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="Estil.css">
+    </head>
+    <body>
+    <header class="Encabezado">
+        <div class="caja1">
+            <img src="logozua.png" alt="Logo" width="150" height="80" />
+        </div>
+        <div class="caja2">
+            <h2>JOVEN POR VENIR DEL CAUCA</h2>
+        </div>
+        <div class="caja3">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">¿Quiénes somos?</a></li>
+                <li class="Submenu">
+                    <a href="">Proyectos</a>
+                    <ul class="hijos">
+                        <li><a href="">Apicultura</a></li>
+                        <li><a href="">Cunicultura</a></li>
+                        <li><a href="">Cafe</a></li>
+                    </ul>
+                </li>   
+                <li><a href="">Contacto</a></li>
+            </ul>    
+        </div>
+    </header>
+        
+    <main id="contenido_principal">
+        <div class="Imagen_portada">
+            <img src="descarga.png" alt=""/>
+        </div>
+        
+        <div class="Carrusel">
+            <p><strong>Espacio para el carrusel de imagen</strong></p>
+        </div>
+        
+        
+        <div class="Quienes_somos_div">
+            
+                <h1 id="quienes_somos_titulo">¿Quiénes somos?</h1>
+                    
+                <p id="quienes_somos_texto">
+                Somos un programa sin animo de lucro para jóvenes entre 16 y 22 años que compartimos un mismo sueño: 
+                convertir nuestras ideas en realidad. Formamos parte de la Fundación Zúa de Bogotá 
+                y desarrollamos nuestro proyecto en la sede rural de Sasaima, Cundinamarca, llamada
+                "Senderos". Nos une la pasión por aprender, crecer y construir un futuro mejor. 
+                El trabajo en equipo, la colaboración y el apoyo mutuo son los pilares que nos sostienen.<br><br>
+
+                ¿Quieres saber más sobre cómo convertir tus sueños en realidad?<br><br>
+
+                ¡No dudes en contactarnos!
+                
+                <form method="POST" action="backend/form.php" enctype="multipart/form-data">
+                    <label for="username">Nombre de usuario</label>
+                    <input type="text" name="username" id="username" placeholder="Inserta tu nombre aqui" value="Ingresa tu nombre"/>
+                    <select name="pais">
+                        <option value="Colombia">Colombia</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                    </select>
+                </form>
+                <form method="POST" action="backend/form.php" enctype="multipart/form-data">
+                    <input type="radio" name="Departamento" value="Cauca" id="Departamentos" /> <label for="Departamentos">Cauca</label><br>
+                    <input type="radio" name="Departamento" value="Cauca" id="Departamentos" /> <label for="Departamentos">Nariño</label><br>
+                    <input type="radio" name="Departamento" value="Cauca" id="Departamentos" /> <label for="Departamentos">Caqueta</label><br>
+                    <input type="radio" name="Departamento" value="Cauca" id="Departamentos" /> <label for="Departamentos">Putumayo</label><br>
+                    <input type="radio" name="Departamento" value="Cauca" id="Departamentos" /> <label for="Departamentos">Choco</label><br>
+                    <input type="checkbox" name="terminos" value="yes" id="terminos" required/><label for="terminos" >Acepto los terminos y condiciones</label><br>
+                    <input type="submit" value="Enviar"/>
+                </form>
+                </p>
+        </div>
+        
+        
+        
+        
+            
+        <div class="origenes">
+        
+                <h3 id="origenes_titulo">Conozca nuestros orígenes</h3>
+                <p id="origenes_texto">
+                  En el año 2017, un integrante de la Fundación Zúa visitó el municipio
+                  de Santa Rosa, Cauca. Al observar la realidad de los jóvenes que allí
+                  habitaban, se evidenció una preocupante falta de oportunidades para
+                  aquellos que lograban culminar el bachillerato. Sus opciones se 
+                  limitaban a vincularse a grupos armados, lo cual es una alternativa
+                  peligrosa y sin futuro, dedicarse a un trabajo ordinario de campo,
+                  una opcion que no les permitía desarrollar todo su potencial y solo 
+                  unos cuantos lograban seguir con su vida académica.
+                </p>
+        </div>
+        
+
+        <div class="moises">
+                <h1>
+                  Moises Pedraza Robayo:
+                </h1>
+                <p id="descripcion_moises">
+                  Moises Pedraza Robayo es nuestro<br> director y fundador, tiene 76 años<br> de edad y hace parte de este programa hace 25 años.
+                </p>
+        </div>
+        
+        <div class="Contenedor_que_nos_caracteriza">
+                <h1>
+                  integrantes actuales del programa:
+                </h1>
+
+                <h3 id="caracteriza_titulo">Que nos caracteriza</h3>
+
+                <p id="caracteriza_texto">
+                  Nuestra institución, una comunidad sin ánimo de lucro, se distingue
+                  por su compromiso con la formación integral de los jóvenes. Buscamos
+                  crear un ambiente cálido y familiar que inspire un aprendizaje 
+                  significativo y sostenible.<br><br>
+
+                  Fomentamos el desarrollo personal y académico de nuestros estudiantes, 
+                  brindándoles orientación y apoyo en todas las áreas de su vida. 
+                  Ofrecemos una formación integral que abarca no solo las materias académicas,
+                  sino también las habilidades prácticas y fundamentales para la vida.
+                </p>
+
+        </div>
+        
+        
+        
+        <div class="Contedor_propsito">
+                <h1 id="proposito_titulo">conozca nuestro proposito</h1>
+                <p id="proposito_texto">
+                  Al ingresar los jóvenes presentan carencias académicas y afectivas, 
+                  por lo que se les requiere completar un preuniversitario de un año. 
+                  Durante este periodo, proporcionamos una preparación en áreas como 
+                  matemáticas, lectura, biología e inglés. Luego, deben rendir las 
+                  pruebas Saber para evaluar el resultado de su aprendizaje, con el 
+                  objetivo de que puedan acceder a una universidad pública. En caso 
+                  de no cumplir con este objetivo, se les ofrece la oportunidad de 
+                  ingresar a una universidad privada y elegir una carrera de modalidad
+                  virtual, donde deberán residir en la sede y llevar a cabo sus estudios
+                  desde allí. La financiación de la carrera será proporcionada por la 
+                  fundación Zuá, con un límite de 3.000.000 por semestre, hasta que 
+                  la universidad requiera la realización de prácticas, momento en 
+                  el cual se trasladarán a vivir a la ciudad y se desvincularan de la fundación.
+                </p>
+
+        </div>
+        
+        
+        
+        
+        
+        <div class="Contendor_proyectos">
+                <h1 id="proyectos_titulo">proyectos</h1>
+
+                <img id="proyecto_abejas" src="c:\Users\villa\OneDrive\Imágenes\img proyecto zuá\zua imagen prueba 2.jpg" alt="imagen miel" style="width: 625px; height: 400px;" />
+
+                <p id="abejas_texto"></p>
+
+                <img id="proyecto_cafe" src="c:\Users\villa\OneDrive\Imágenes\img proyecto zuá\zua imagen prueba 3.jpg" alt="imagen cafe" style="width: 625px; height: 400px;" />
+                <p id="cafe_texto"></p>
+                <button class="Leer_mas">Leer mas</button>
+                <img id="proyecto_conejos" src="c:\Users\villa\OneDrive\Imágenes\img proyecto zuá\zua imagen prueba 4.jpg" alt="imagen cafe" style="width: 625px; height: 400px;" />
+                <p id="conejos_texto"></p>
+                <img id="proyecto_cacao" src="c:\Users\villa\OneDrive\Imágenes\img proyecto zuá\zua imagen prueba 4.jpg" alt="imagen cafe" style="width: 625px; height: 400px;" />
+                <p id="cacao_texto"></p>
+                <p></p>    
+                <h3 id="testimonios_titulo">testimonios</h3>
+                <p></p>    
+        </div>
+        
+        
+        
+    </main>
+    
+    <footer>
+            
+    
+    </footer>
+        
+        
+        
+        
+    <script src="javascript.js" type="text/javascript"></script>
+    
+    </body>
+</html>
