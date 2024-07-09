@@ -64,7 +64,6 @@ margin: 1px; /* Espacio entre las cajas */
 padding: 5px; /* Espacio interno */
 overflow: hidden;
 float: right;
-background-color: gray;
 }
 .caja3 ul{
     list-style: none;
